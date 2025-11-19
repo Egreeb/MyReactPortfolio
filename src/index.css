@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.skill-box{
+    /* background: linear-gradient(180deg, rgba(255, 230, 0, 0.6) 0%, rgba(31, 30, 28, 0.6) 67.59%); */
+    margin: 0 15px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.grid-inner{
+    background: #1F1E1D;
+    height: 100%;
+    margin: 3px 3px 17px 3px;
+    text-align: center;
+    border-radius: 12px;
+}    
+.grid-inner-2{
+    background: #1F1E1D;
+    height: 90%;
+    margin: 3px 3px 17px 3px;
+    /* text-align: center; */
+    border-radius: 12px;
+}
+
+.skill-box-2{
+    /* background: linear-gradient(180deg, rgba(255, 230, 0, 0.6) 0%, rgba(31, 30, 28, 0.6) 67.59%); */
+    margin: 0 15px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+/* Move navigation arrows to the bottom */
+.mySwiper_Slides .swiper-button-prev,
+.mySwiper_Slides .swiper-button-next {
+    top: auto !important;
+    bottom: 0 !important;     /* arrows at bottom */
+    margin: 0 10px !important; /* only left-right 10px */
+    border: 1px solid #05df72;
+    border-radius: 50%;
+    padding: 10px;
+    color: #05df72;
+  
+}
+
+/* Left arrow */
+.mySwiper_Slides .swiper-button-prev {
+  left: 45% !important;
+}
+
+/* Right arrow */
+.mySwiper_Slides .swiper-button-next {
+  right: 45% !important;
+}
+
+.mySwiper_Slides .swiper-button-prev:hover,
+.mySwiper_Slides .swiper-button-next:hover{
+    background-color: #05df72;
+    color: #fff;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.box_shadhow{
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* Inactive bullets (white) */
+.mySwiper_Slides .swiper-pagination-bullet {
+  background: #ffffff !important;  /* white */
+  opacity: 1 !important;
+  width: 12px !important;
+  height: 12px !important;
+}
+
+/* Active bullet (green + bigger) */
+.mySwiper_Slides .swiper-pagination-bullet-active {
+  background: #22c55e !important;  /* green-500 */
+  width: 24px !important;
+  height: 12px !important;
+  border-radius: 8px !important;
+}
+
+@media (max-width: 640px) {
+  /* Dots color */
+  .mySwiper_Slides .swiper-button-prev,
+  .mySwiper_Slides .swiper-button-next {
+    display: none !important;
+  }
+}
+@keyframes slideLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0.3;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slideLeft {
+  animation: slideLeft 0.3s ease-out;
+}
