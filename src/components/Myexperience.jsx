@@ -16,8 +16,8 @@ const Myexperience = () => {
             </div>
             <div className='bg-[#282828] p-5 rounded-xl hover:border border-amber-50/20 mb-8 m-3 '>
                 <ul className='sm:flex place-items-center justify-between items-center px-0 sm:px-10'>
-                    <li className="date text-xl sm:text-2xl font-bold basis-[20%] py-2 sm:py-0">2022 - Present</li>
-                    <li className="logo basis-[15%] py-2 sm:py-0"><img src={jads} alt="" className='rounded-full w-20' /></li>
+                    <li className="date text-xl sm:text-2xl font-bold basis-[20%] py-2 sm:py-0 text-center sm:text-left">2022 - Present</li>
+                    <li className="logo basis-[15%] py-2 sm:py-0 flex justify-center"><img src={jads} alt="" className='rounded-full w-20' /></li>
                     <li className="position text-xl sm:text-2xl font-bold basis-[30%] sm:text-left text-center py-2 sm:py-0">Front End Developer <br /><span className='text-yellow-200 font-normal text-xl sm:text-left text-center'>JADS
                         <span> (Dubai UAE)</span></span></li>
                     <li className="link text-md sm:text-xl font-bold py-2 sm:py-0"><a href="#" className='flex justify-center items-center gap-5 hover:text-yellow-200 hover:gap-2 transition-all duration-500'> <span className="material-symbols-outlined">arrow_right_alt</span> Go to website</a></li>
@@ -25,8 +25,8 @@ const Myexperience = () => {
             </div>
             <div className='bg-[#282828] p-5 rounded-xl hover:border border-amber-50/20 mb-8 m-3'>
                 <ul className='sm:flex place-items-center justify-between items-center px-0 sm:px-10'>
-                    <li className="date text-xl sm:text-2xl font-bold basis-[20%] py-2 sm:py-0">2021 - 2022</li>
-                    <li className="logo basis-[15%] py-2 sm:py-0"><img src={quicknel} alt="" className='rounded-full w-20' /></li>
+                    <li className="date text-xl sm:text-2xl font-bold basis-[20%] py-2 sm:py-0 text-center sm:text-left">2021 - 2022</li>
+                    <li className="logo basis-[15%] py-2 sm:py-0 flex justify-center"><img src={quicknel} alt="" className='rounded-full w-20' /></li>
                     <li className="position text-xl sm:text-2xl font-bold basis-[30%] sm:text-left text-center py-2 sm:py-0"> Front End Developer <br /><span className='text-yellow-200 font-normal text-xl sm:text-left text-center'>Quickensol IT Solutions LLP
                         <span> (Nagpur India)</span></span></li>
                     <li className="link text-md sm:text-xl font-bold py-2 sm:py-0"><a href="#" className='flex justify-center items-center gap-5 hover:text-yellow-200 hover:gap-2 transition-all duration-500'> <span className="material-symbols-outlined">arrow_right_alt</span> Go to website</a></li>
@@ -34,8 +34,8 @@ const Myexperience = () => {
             </div>
             <div className='bg-[#282828] p-5 rounded-xl hover:border border-amber-50/20 mb-8 m-3'>
                 <ul className='sm:flex place-items-center justify-between items-center px-0 sm:px-10'>
-                    <li className="date text-xl sm:text-2xl font-bold basis-[20%] py-2 sm:py-0">2021 - 2021</li>
-                    <li className="logo basis-[15%] py-2 sm:py-0"><img src={egreeb} alt="" className='rounded-full w-20' /></li>
+                    <li className="date text-xl sm:text-2xl font-bold basis-[20%] py-2 sm:py-0 text-center sm:text-left">2021 - 2021</li>
+                    <li className="logo basis-[15%] py-2 sm:py-0 flex justify-center"><img src={egreeb} alt="" className='rounded-full w-20' /></li>
                     <li className="position text-xl sm:text-2xl font-bold basis-[30%] sm:text-left text-center py-2 sm:py-0"> Partner & Web/Business Developer<br /><span className='text-yellow-200 font-normal text-xl sm:text-left text-center'>Egreeb PSP Provider
                         <span> (Nagpur India)</span></span></li>
                     <li className="link text-md sm:text-xl font-bold py-2 sm:py-0"><a href="#" className='flex justify-center items-center gap-5 hover:text-yellow-200 hover:gap-2 transition-all duration-500'> <span className="material-symbols-outlined">arrow_right_alt</span> Go to website</a></li>
@@ -43,8 +43,8 @@ const Myexperience = () => {
             </div>
             <div className='bg-[#282828] p-5 rounded-xl hover:border border-amber-50/20 mb-8 m-3'>
                 <ul className='sm:flex place-items-center justify-between items-center px-0 sm:px-10'>
-                    <li className="date text-xl sm:text-2xl font-bold basis-[20%] py-2 sm:py-0">2020 - 2021</li>
-                    <li className="logo basis-[15%] py-2 sm:py-0"><img src={gxcpl} alt="" className='rounded-full w-20' /></li>
+                    <li className="date text-xl sm:text-2xl font-bold basis-[20%] py-2 sm:py-0 text-center sm:text-left">2020 - 2021</li>
+                    <li className="logo basis-[15%] py-2 sm:py-0 flex justify-center"><img src={gxcpl} alt="" className='rounded-full w-20' /></li>
                     <li className="position text-xl sm:text-2xl font-bold basis-[30%] sm:text-left text-center py-2 sm:py-0"> MIS Executive Team Leader <br /><span className='text-yellow-200 font-normal text-xl sm:text-left text-center'>GenXCoders Pvt Ltd
                         <span> (Nagpur India)</span></span></li>
                     <li className="link text-md sm:text-xl font-bold py-2 sm:py-0"><a href="#" className='flex justify-center items-center gap-5 hover:text-yellow-200 hover:gap-2 transition-all duration-500'> <span className="material-symbols-outlined">arrow_right_alt</span> Go to website</a></li>

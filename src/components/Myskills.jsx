@@ -7,7 +7,7 @@ const Myskills = () => {
         <div className='max-w-7xl mx-auto'> <br /><br /><br />
             <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2">
                 <div className='flex sm:block justify-center'>
-                    <div className='relative w-90 h-110 rounded-xl bg-slate-800 place-items-center bg-linear-to-t from-black/10 to-yellow-500/10'>
+                    <div className='relative w-90 h-110 rounded-xl bg-slate-800 text-center place-items-center bg-linear-to-t from-black/10 to-yellow-500/10'>
                         <div className='mt-20'>
                             <h1 className='sm:pt-17 font-bold text-9xl text-yellow-300'>05</h1>
                             <p className='font-semibold text-xl mt-5 mb-10'>Years of Experience</p>
