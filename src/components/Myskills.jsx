@@ -12,7 +12,7 @@ const Myskills = () => {
                             <h1 className='sm:pt-17 font-bold text-9xl text-yellow-300'>05</h1>
                             <p className='font-semibold text-xl mt-5 mb-10'>Years of Experience</p>
                         </div>
-                        <div className='sm:absolute bottom-5 -right-25 grid skill-box-2 w-full sm:w-70 h-22 rounded-xl bg-linear-to-l from-black/10 from-20% to-purple-500/80'>
+                        <div className='sm:absolute bottom-5 -right-25 grid skill-box-2 w-fit sm:w-70 h-22 rounded-xl bg-linear-to-l from-black/10 from-20% to-purple-500/80'>
                             <div className='grid-inner-2 flex items-center justify-center p-2'>
                                 <h1 className='font-bold text-5xl text-green-400'>
                                     <CountUp
