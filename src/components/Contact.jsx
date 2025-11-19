@@ -31,7 +31,7 @@ const Contact = () => {
         e.preventDefault()
         setloader(true)
         try {
-            const res = await axios.post('https://react-portfolio-jbod.onrender.com',formData)
+            const res = await axios.post('https://react-portfolio-jbod.onrender.com/',formData)
             if(res.data.success){
                 setFormData({
                     fullname: "",
