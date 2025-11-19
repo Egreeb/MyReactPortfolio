@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import reactLogo from '../assets/logo.png'
-import CV from '../assets/CV/cv.pdf'
+import CV from '../assets/CV.pdf'
 import { HiMenu, HiX } from 'react-icons/hi'; // or any hamburger / close icon
 
 
