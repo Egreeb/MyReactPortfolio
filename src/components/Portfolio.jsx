@@ -26,11 +26,8 @@ const Portfolio = () => {
             <div className='myswiper mt-8 sm:mt-20'>
                 <Swiper
                     navigation={true}
-                    modules={[Navigation, Autoplay, Pagination]}
+                    modules={[Navigation, Pagination]}
                     pagination={{ clickable: true }}
-                    autoplay={{
-                        delay:2500,
-                    }}
                     loop={true}
                     slidesPerView={3}
                     spaceBetween={30}
